@@ -1,0 +1,23 @@
+name: Lambda Prize — payment
+description: You were awarded a Lambda Prize and need to submit details so we can verify and process payment.
+title: "Lambda Prize — payment"
+labels:
+  - payment
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you have been awarded a Lambda Prize, please complete this form with your data first:
+
+        **https://TBD.typeform.com/to/TBD**
+
+        After submitting, open this issue and paste your **Typeform response ID** in the field below. We use it to match your answers to this ticket. If everything checks out, we will proceed with payment.
+
+  - type: input
+    id: typeform_response_id
+    attributes:
+      label: Typeform response ID
+      description: The response ID of your Typeform submission (copy it exactly).
+      placeholder: e.g. abc123…
+    validations:
+      required: true
