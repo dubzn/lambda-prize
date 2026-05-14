@@ -35,7 +35,7 @@ All prizes live in the `[prizes/](prizes/)` directory. Each prize is a markdown 
 | [LP-0009](prizes/LP-0009.md) | Keycard NIP-46 Nostr Signer Proxy                        | Small  | Closed                       |
 | [LP-0010](prizes/LP-0010.md) | Shell dApp Integration Proof of Concept                  | Small  | Closed                       |
 | [LP-0011](prizes/LP-0011.md) | Program development tooling: Rust SDK                    | Medium | Draft                        |
-| [LP-0012](prizes/LP-0012.md) | Event/Log mechanism                                      | Large  | Open                         |
+| [LP-0012](prizes/LP-0012.md) | Event/Log mechanism                                      | Large  | Closed                       |
 | [LP-0013](prizes/LP-0013.md) | Token program improvements (authorities)                 | Medium | Open   |
 | [LP-0014](prizes/LP-0014.md) | Token program improvements (ATAs + wallet tooling)       | Medium | Closed |
 | [LP-0015](prizes/LP-0015.md) | General cross-program calls via tail calls               | Large  | Closed |
@@ -78,6 +78,20 @@ The following policies apply to **all** prizes unless a specific prize states ot
 **Feedback.** Initial evaluation feedback is limited to a simple pass/fail result based on the success criteria. For more detailed guidance or technical discussion, builders are encouraged to participate in the community Discord. The #builder-hub channel is the best place to ask questions and engage with evaluators or other builders.
 
 **Demo requirements.** Every submission that requires a demo must include a narrated video walkthrough in which the builder explains what they built and why, walks through the architecture and key implementation decisions, and demonstrates the full end-to-end flow. A silent screencast without explanation is not sufficient. Prize-specific demo content is listed in each prize's **Submission Requirements**.
+
+## Claiming payment
+
+Prize payouts are handled after a winning solution is accepted and **merged**. Do not open a payment claim until your solution pull request has been merged into `solutions/` of this repository.
+
+**Flow overview**
+
+1. Your winning solution is merged.
+2. You submit the payment claim through GitHub using the **[Lambda Prize payment issue template](https://github.com/logos-co/lambda-prize/issues/new?template=lambda-prize-claim.yml)**. That template links to the claim workflow and tells you what to provide.
+3. The team verifies your claim and processes payment (prizes are paid in **USDT** on Ethereum).
+
+To complete payment, we need your **full legal name**, **country of residence**, and an **Ethereum wallet address**. Your **full legal name** and **country of residence** are required to process the payout and are **not shared with third parties**. Your **Ethereum wallet address** will be **included in your public payment claim** (the GitHub issue), so anyone can see it.
+
+If **privacy** is a concern, we recommend using a **single-use Ethereum address** for this payout.
 
 ## Terms & Conditions
 
